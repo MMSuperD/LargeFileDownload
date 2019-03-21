@@ -14,6 +14,10 @@
 		7A0FF21B22432BD000C62B02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A0FF21922432BD000C62B02 /* LaunchScreen.storyboard */; };
 		7A0FF22422432FED00C62B02 /* ShowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0FF22222432FED00C62B02 /* ShowCell.swift */; };
 		7A0FF22522432FED00C62B02 /* ShowCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A0FF22322432FED00C62B02 /* ShowCell.xib */; };
+		7A0FF22722433AB600C62B02 /* DownloadModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0FF22622433AB600C62B02 /* DownloadModel.swift */; };
+		7A0FF2292243592600C62B02 /* NSObject+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0FF2282243592600C62B02 /* NSObject+extension.swift */; };
+		7A0FF22B22435DB000C62B02 /* FileManager+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0FF22A22435DB000C62B02 /* FileManager+extension.swift */; };
+		7A0FF22D22436B0600C62B02 /* String+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0FF22C22436B0600C62B02 /* String+extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		7A0FF21C22432BD000C62B02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A0FF22222432FED00C62B02 /* ShowCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowCell.swift; sourceTree = "<group>"; };
 		7A0FF22322432FED00C62B02 /* ShowCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShowCell.xib; sourceTree = "<group>"; };
+		7A0FF22622433AB600C62B02 /* DownloadModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadModel.swift; sourceTree = "<group>"; };
+		7A0FF2282243592600C62B02 /* NSObject+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+extension.swift"; sourceTree = "<group>"; };
+		7A0FF22A22435DB000C62B02 /* FileManager+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager+extension.swift"; sourceTree = "<group>"; };
+		7A0FF22C22436B0600C62B02 /* String+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +74,10 @@
 				7A0FF21722432BD000C62B02 /* Assets.xcassets */,
 				7A0FF21922432BD000C62B02 /* LaunchScreen.storyboard */,
 				7A0FF21C22432BD000C62B02 /* Info.plist */,
+				7A0FF22622433AB600C62B02 /* DownloadModel.swift */,
+				7A0FF2282243592600C62B02 /* NSObject+extension.swift */,
+				7A0FF22A22435DB000C62B02 /* FileManager+extension.swift */,
+				7A0FF22C22436B0600C62B02 /* String+extension.swift */,
 			);
 			path = LargeFileDownload;
 			sourceTree = "<group>";
@@ -142,9 +154,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A0FF2292243592600C62B02 /* NSObject+extension.swift in Sources */,
 				7A0FF22422432FED00C62B02 /* ShowCell.swift in Sources */,
 				7A0FF21322432BCE00C62B02 /* ViewController.swift in Sources */,
+				7A0FF22B22435DB000C62B02 /* FileManager+extension.swift in Sources */,
 				7A0FF21122432BCE00C62B02 /* AppDelegate.swift in Sources */,
+				7A0FF22D22436B0600C62B02 /* String+extension.swift in Sources */,
+				7A0FF22722433AB600C62B02 /* DownloadModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
