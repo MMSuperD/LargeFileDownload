@@ -12,6 +12,8 @@
 		7A0FF21622432BCE00C62B02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A0FF21422432BCE00C62B02 /* Main.storyboard */; };
 		7A0FF21822432BD000C62B02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A0FF21722432BD000C62B02 /* Assets.xcassets */; };
 		7A0FF21B22432BD000C62B02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A0FF21922432BD000C62B02 /* LaunchScreen.storyboard */; };
+		7A0FF22422432FED00C62B02 /* ShowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0FF22222432FED00C62B02 /* ShowCell.swift */; };
+		7A0FF22522432FED00C62B02 /* ShowCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A0FF22322432FED00C62B02 /* ShowCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		7A0FF21722432BD000C62B02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A0FF21A22432BD000C62B02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A0FF21C22432BD000C62B02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A0FF22222432FED00C62B02 /* ShowCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowCell.swift; sourceTree = "<group>"; };
+		7A0FF22322432FED00C62B02 /* ShowCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShowCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				7A0FF21022432BCE00C62B02 /* AppDelegate.swift */,
 				7A0FF21222432BCE00C62B02 /* ViewController.swift */,
+				7A0FF22222432FED00C62B02 /* ShowCell.swift */,
+				7A0FF22322432FED00C62B02 /* ShowCell.xib */,
 				7A0FF21422432BCE00C62B02 /* Main.storyboard */,
 				7A0FF21722432BD000C62B02 /* Assets.xcassets */,
 				7A0FF21922432BD000C62B02 /* LaunchScreen.storyboard */,
@@ -124,6 +130,7 @@
 			files = (
 				7A0FF21B22432BD000C62B02 /* LaunchScreen.storyboard in Resources */,
 				7A0FF21822432BD000C62B02 /* Assets.xcassets in Resources */,
+				7A0FF22522432FED00C62B02 /* ShowCell.xib in Resources */,
 				7A0FF21622432BCE00C62B02 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A0FF22422432FED00C62B02 /* ShowCell.swift in Sources */,
 				7A0FF21322432BCE00C62B02 /* ViewController.swift in Sources */,
 				7A0FF21122432BCE00C62B02 /* AppDelegate.swift in Sources */,
 			);
@@ -285,7 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8SJC8P4YK8;
 				INFOPLIST_FILE = LargeFileDownload/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +312,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8SJC8P4YK8;
 				INFOPLIST_FILE = LargeFileDownload/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
